@@ -1,0 +1,10 @@
+.weather-list {
+    list-style: none;
+}
+.weather-list-item {
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.text-error {
+    color: #c61a30;
+}
