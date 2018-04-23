@@ -47,12 +47,14 @@ class App extends React.Component {
             <main role="main">
                 <div className="wrapper">
                     <div className="main">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-sm-5 title-container">
+                        <div className="row">
+                            <div className="col s5">
+                                <div className="title-container">
                                     <Titles />
                                 </div>
-                                <div className="col-sm-7 form-container">
+                            </div>
+                            <div className="col s7">
+                                <div className="form-container">
                                     <Form getWeather={this.getWeather} />
                                     <Weather
                                         temperature={this.state.temperature}

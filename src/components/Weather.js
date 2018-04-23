@@ -25,7 +25,7 @@ const Weather = props => (
             }
         </ul>
         {
-            props.error && <p className="text-error"> { props.error }</p>
+            props.error && <p className="text-error center-align"> { props.error }</p>
         }
     </div>
 );
